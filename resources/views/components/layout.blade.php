@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home page</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    @vite(['resources/js/app.js','resources/css/app.css'])
+
 </head>
 <body class="h-full">
   
@@ -14,6 +15,7 @@
         <div class="flex h-16 items-center justify-between">
           <div class="flex items-center">
             <div class="shrink-0">
+            
               <img class="h-8 w-8" src="https://laracasts.com/images/logo/logo-triangle.svg" alt="Your Company">
             </div>
             <div class="hidden md:block">
